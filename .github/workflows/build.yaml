@@ -224,6 +224,7 @@ jobs:
       - macos
       - freebsd
       - windows
+      - android  
     if: github.event_name == 'release'
     steps:
       - name: Checkout
