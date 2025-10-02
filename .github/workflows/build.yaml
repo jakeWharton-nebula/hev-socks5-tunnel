@@ -261,7 +261,6 @@ jobs:
   android:
     name: Android
     runs-on: ubuntu-latest
-    if: github.event_name != 'release'
     steps:
       - name: Checkout
         uses: actions/checkout@v4
