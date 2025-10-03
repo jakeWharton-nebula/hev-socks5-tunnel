@@ -32,7 +32,7 @@ jobs:
 
       - name: Build
         run: |
-          ./android-ndk-r27b/ndk-build NDK_APP_ABI=${{ matrix.abi }} BUILD_EXECUTABLE=ON
+          ./android-ndk-r27b/ndk-build NDK_APP_ABI=${{ matrix.abi }}
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
