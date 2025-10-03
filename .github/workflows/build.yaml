@@ -35,7 +35,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: hev-socks5-tunnel-android
-          path: bin/
+          path: build/src/hev-socks5-tunnel
           if-no-files-found: error
           retention-days: 7
 
